@@ -90,8 +90,8 @@ cityData.forEach((data) => {
     console.log(selectedCell);
     selectedCell.forEach((cell) => cell.classList.remove("selected"));
     
-    // stateCell.classList.add("selected");
-    // InsertState(data.state);
-    // pincodeEl.innerHTML = " ";
+    stateCell.classList.add("selected");
+    InsertState(data.state);
+    pincodeEl.innerHTML = " ";
   });
 });
